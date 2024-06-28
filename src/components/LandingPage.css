@@ -1,0 +1,61 @@
+/* src/components/LandingPage.css */
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    background-image: url('../assets/bg.jpg'); /* Ensure you place the background image in the public folder */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+}
+
+.landing-page h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    z-index: 1;
+    color:violet;
+    text-shadow: 2px 2px 4px rgba(6, 6, 6, 0.979);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    padding: 0 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    z-index: 1;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color:antiquewhite;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.buttons button:first-of-type {
+    background-color: #007bff;
+}
+
+.buttons button:last-of-type {
+    background-color: #6c757d;
+}
+
+
+
+.buttons button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
